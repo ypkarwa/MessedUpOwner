@@ -1,0 +1,62 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3153493332224143842",
+      "lastPropertyId": "9:4768082049913932822",
+      "name": "MessMenu",
+      "properties": [
+        {
+          "id": "1:4709827625765149148",
+          "name": "id"
+        },
+        {
+          "id": "2:7188839014644944761",
+          "name": "rice"
+        },
+        {
+          "id": "3:6315277429888771670",
+          "name": "roti"
+        },
+        {
+          "id": "4:8050767375830241430",
+          "name": "veg1"
+        },
+        {
+          "id": "5:1299678457432067099",
+          "name": "veg2"
+        },
+        {
+          "id": "6:7716108125454850936",
+          "name": "veg3"
+        },
+        {
+          "id": "7:4672115268060338686",
+          "name": "special"
+        },
+        {
+          "id": "8:899928785302269118",
+          "name": "special2"
+        },
+        {
+          "id": "9:4768082049913932822",
+          "name": "other"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:3153493332224143842",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

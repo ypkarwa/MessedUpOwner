@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".FillDetails">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="26dp"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif"
+        android:text="Just a few details !"/>
+
+    <EditText
+        android:id="@+id/etMessName"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mess Name"
+        android:textColorHint="#80FFFFFF"
+        android:padding="8dp"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_business_black_24dp"
+        android:background="@drawable/bg_rectangle_edittext"
+        android:textColor="#80FFFFFF"/>
+
+    <EditText
+        android:id="@+id/etOwnerName"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner Name"
+        android:textColorHint="#80FFFFFF"
+        android:padding="8dp"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:background="@drawable/bg_rectangle_edittext"
+        android:textColor="#80FFFFFF"/>
+
+    <EditText
+        android:id="@+id/etMobileNumber"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:textColorHint="#80FFFFFF"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+        android:background="@drawable/bg_rectangle_edittext"
+        android:textColor="#80FFFFFF"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/etCollegeArea"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Area/Near by College"
+        android:textColorHint="#80FFFFFF"
+        android:inputType="textAutoComplete"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_school_black_24dp"
+        android:background="@drawable/bg_rectangle_edittext"
+        android:textColor="#80FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="NEXT"
+        android:background="@drawable/bg_rectangle_button"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Logout"
+        android:background="@drawable/bg_rectangle_button"/>
+</LinearLayout>
+</RelativeLayout>
